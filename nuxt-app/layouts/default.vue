@@ -1,5 +1,6 @@
 <template>
     <div>
-        <CarCards />
+        <Navbar />
+        <slot/>        
     </div>
 </template>
