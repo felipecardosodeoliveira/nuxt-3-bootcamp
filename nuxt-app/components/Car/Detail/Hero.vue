@@ -1,7 +1,7 @@
 <script setup>
-    const props = defineProps({
-        car: Object
-    });
+const props = defineProps({
+    car: Object
+});
 </script>
 
 <template>

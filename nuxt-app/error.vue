@@ -3,9 +3,13 @@
 const error = useError();
 
 const handleError = () => {
-    navigateTo('/');
+    clearError({
+        redirect: '/'
+    });
 }
+
 </script>
+
 <template>
     <div class="flex h-screen justify-center items-center flex-col" @click="handleError">
         <h1 class="text-9xl">{{ error.statusCode }}</h1>

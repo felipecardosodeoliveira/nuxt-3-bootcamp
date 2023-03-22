@@ -12,7 +12,15 @@ const car = computed(() => {
     return cars.find(c => {
         return c.id === parseInt(route.params.id);
     })
-})
+});
+
+// this is a server side error
+if (!car.value) {
+    throw createError({
+        statusCode: 404,
+        message: `Carro com o id ${route.params.id} não existe`
+    })
+}
 
 definePageMeta({
     layout: 'carcustom'
@@ -21,7 +29,7 @@ definePageMeta({
 </script>
 
 <template>
-    <div>
+    <div v-if="car">
         <CarDetailHero :car="car"/>
         <CarDetailAttributes :features="car.features"/>
         <CarDetailDescription :description="car.description"/>
