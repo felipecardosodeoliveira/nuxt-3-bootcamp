@@ -8,6 +8,8 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/image-edge": "^1.0.0-27990059.c3f31ce",
+    "@vueuse/nuxt": "^9.13.0",
     "nuxt": "^3.2.3"
   },
   "dependencies": {
