@@ -735,31 +735,7 @@
   optionalDependencies:
     "ipx" "1.0.0-2"
 
-"@nuxt/kit@^3.0.0", "@nuxt/kit@^3.0.0-rc.12", "@nuxt/kit@^3.2.0", "@nuxt/kit@3.2.3":
-  "integrity" "sha512-wcsVlQLwGkh1cRhAFWHc3uYHdIxFTRNdRUzNyfqoX9DL0Fuga3K75q/PBY0xg1viA9R6F5BMPhc7KDLSWbXtWg=="
-  "resolved" "https://registry.npmjs.org/@nuxt/kit/-/kit-3.2.3.tgz"
-  "version" "3.2.3"
-  dependencies:
-    "@nuxt/schema" "3.2.3"
-    "c12" "^1.1.2"
-    "consola" "^2.15.3"
-    "defu" "^6.1.2"
-    "globby" "^13.1.3"
-    "hash-sum" "^2.0.0"
-    "ignore" "^5.2.4"
-    "jiti" "^1.17.1"
-    "knitwork" "^1.0.0"
-    "lodash.template" "^4.5.0"
-    "mlly" "^1.1.1"
-    "pathe" "^1.1.0"
-    "pkg-types" "^1.0.2"
-    "scule" "^1.0.0"
-    "semver" "^7.3.8"
-    "unctx" "^2.1.2"
-    "unimport" "^2.2.4"
-    "untyped" "^1.2.2"
-
-"@nuxt/kit@^3.3.1":
+"@nuxt/kit@^3.0.0", "@nuxt/kit@^3.0.0-rc.12", "@nuxt/kit@^3.2.0", "@nuxt/kit@^3.3.1":
   "integrity" "sha512-mHucMYuN/nVJp0p+L6ezzEls8Y1PerAXCJi01lS3Z5ozz+l2OusEfes8EBxWcy3x0C5465ignXCujQs3/LAvnQ=="
   "resolved" "https://registry.npmjs.org/@nuxt/kit/-/kit-3.3.2.tgz"
   "version" "3.3.2"
@@ -781,6 +757,30 @@
     "semver" "^7.3.8"
     "unctx" "^2.1.2"
     "unimport" "^3.0.4"
+    "untyped" "^1.2.2"
+
+"@nuxt/kit@3.2.3":
+  "integrity" "sha512-wcsVlQLwGkh1cRhAFWHc3uYHdIxFTRNdRUzNyfqoX9DL0Fuga3K75q/PBY0xg1viA9R6F5BMPhc7KDLSWbXtWg=="
+  "resolved" "https://registry.npmjs.org/@nuxt/kit/-/kit-3.2.3.tgz"
+  "version" "3.2.3"
+  dependencies:
+    "@nuxt/schema" "3.2.3"
+    "c12" "^1.1.2"
+    "consola" "^2.15.3"
+    "defu" "^6.1.2"
+    "globby" "^13.1.3"
+    "hash-sum" "^2.0.0"
+    "ignore" "^5.2.4"
+    "jiti" "^1.17.1"
+    "knitwork" "^1.0.0"
+    "lodash.template" "^4.5.0"
+    "mlly" "^1.1.1"
+    "pathe" "^1.1.0"
+    "pkg-types" "^1.0.2"
+    "scule" "^1.0.0"
+    "semver" "^7.3.8"
+    "unctx" "^2.1.2"
+    "unimport" "^2.2.4"
     "untyped" "^1.2.2"
 
 "@nuxt/postcss8@^1.1.3":
@@ -2101,20 +2101,15 @@
   dependencies:
     "color-name" "~1.1.4"
 
-"color-name@^1.0.0", "color-name@1.1.3":
+"color-name@^1.0.0", "color-name@^1.1.4", "color-name@~1.1.4":
+  "integrity" "sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA=="
+  "resolved" "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz"
+  "version" "1.1.4"
+
+"color-name@1.1.3":
   "integrity" "sha512-72fSenhMw2HZMTVHeCA9KCmpEIbzWiQsjN+BHcBbS9vr1mtt+vJjPdksIBNUmKAW8TFUDPJK5SUU3QhE9NEXDw=="
   "resolved" "https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz"
   "version" "1.1.3"
-
-"color-name@^1.1.4":
-  "integrity" "sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA=="
-  "resolved" "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz"
-  "version" "1.1.4"
-
-"color-name@~1.1.4":
-  "integrity" "sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA=="
-  "resolved" "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz"
-  "version" "1.1.4"
 
 "color-string@^1.9.0":
   "integrity" "sha512-shrVawQFojnZv6xM40anx4CkoDP+fZsw/ZerEMsW/pyzsRbElpsL/DBVW7q3ExxwusdNXI3lXpuhEZkzs8p5Eg=="
@@ -3562,12 +3557,7 @@
   dependencies:
     "has" "^1.0.3"
 
-"is-docker@^2.0.0":
-  "integrity" "sha512-F+i2BKsFrH66iaUFc0woD8sLy8getkwTwtOBjvs56Cx4CgJDeKQeqfz8wAYiSb8JOprWhHH5p77PbmYCvvUuXQ=="
-  "resolved" "https://registry.npmjs.org/is-docker/-/is-docker-2.2.1.tgz"
-  "version" "2.2.1"
-
-"is-docker@^2.1.1":
+"is-docker@^2.0.0", "is-docker@^2.1.1":
   "integrity" "sha512-F+i2BKsFrH66iaUFc0woD8sLy8getkwTwtOBjvs56Cx4CgJDeKQeqfz8wAYiSb8JOprWhHH5p77PbmYCvvUuXQ=="
   "resolved" "https://registry.npmjs.org/is-docker/-/is-docker-2.2.1.tgz"
   "version" "2.2.1"
@@ -4345,10 +4335,10 @@
   "resolved" "https://registry.npmjs.org/node-fetch-native/-/node-fetch-native-1.0.2.tgz"
   "version" "1.0.2"
 
-"node-fetch@^2.6.7":
-  "integrity" "sha512-DJm/CJkZkRjKKj4Zi4BsKVZh3ValV5IR5s7LVZnW+6YMh0W1BfNA8XSs6DLMGYlId5F3KnA70uu2qepcR08Qqg=="
-  "resolved" "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.9.tgz"
-  "version" "2.6.9"
+"node-fetch@^2.6.7", "node-fetch@2.6.7":
+  "integrity" "sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ=="
+  "resolved" "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.7.tgz"
+  "version" "2.6.7"
   dependencies:
     "whatwg-url" "^5.0.0"
 
@@ -4360,13 +4350,6 @@
     "data-uri-to-buffer" "^4.0.0"
     "fetch-blob" "^3.1.4"
     "formdata-polyfill" "^4.0.10"
-
-"node-fetch@2.6.7":
-  "integrity" "sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ=="
-  "resolved" "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.7.tgz"
-  "version" "2.6.7"
-  dependencies:
-    "whatwg-url" "^5.0.0"
 
 "node-forge@^1.3.1":
   "integrity" "sha512-dPEtOeMvF9VMcYV/1Wb8CPoVAXtp6MKMlcbAt4ddqmGqUJ6fQZFXkNZNkNlfevtNkGtaSoXf/vNNNSvgrdXwtA=="
